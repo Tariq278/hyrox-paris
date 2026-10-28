@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscription | HYROX Paris 2026 – Projet Tariq Ait Oumalou</title>
+  <meta name="description" content="Formulaire de pré-inscription pour recevoir les informations sur l'HYROX Paris 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="conteneur">
+      <a class="logo" href="index.html">HYROX <span>Paris</span> 2026</a>
+      <nav aria-label="Menu principal">
+        <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="evenement.html">L'événement</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="infos.html">Infos pratiques</a></li>
+        <li><a href="inscription.html" class="actif" aria-current="page">Inscription</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="bandeau bandeau-inscription">
+      <div class="conteneur">
+        <span class="etiquette">Inscription</span>
+        <h1>Je veux participer</h1>
+        <p class="sous-titre">Remplissez le formulaire pour recevoir les informations sur l'HYROX Paris 2026 et un plan de préparation de 8 semaines.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="conteneur">
+        <div class="encadre">Ce site est un projet étudiant : ce formulaire est une démonstration et n'enregistre aucune donnée. Pour vous inscrire réellement à la course, passez par la <a href="https://france.hyrox.com/event/hyrox-paris-season-26-27-hfkuj6" target="_blank" rel="noopener">billetterie officielle HYROX Paris</a>.</div>
+        <h2 class="titre-formulaire">Formulaire de pré-inscription</h2>
+        <form class="formulaire" action="#" method="get">
+          <div class="champ">
+            <label for="prenom">Prénom *</label>
+            <input type="text" id="prenom" name="prenom" required>
+          </div>
+          <div class="champ">
+            <label for="nom">Nom *</label>
+            <input type="text" id="nom" name="nom" required>
+          </div>
+          <div class="champ">
+            <label for="email">Adresse e-mail *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="champ">
+            <label for="naissance">Date de naissance</label>
+            <input type="date" id="naissance" name="naissance">
+          </div>
+          <div class="champ">
+            <label for="categorie">Catégorie visée *</label>
+            <select id="categorie" name="categorie" required>
+              <option value="">Choisir une catégorie</option>
+              <option>Open (solo)</option>
+              <option>Pro (solo)</option>
+              <option>Doubles</option>
+              <option>Relais (4 personnes)</option>
+              <option>Je viens en spectateur</option>
+            </select>
+          </div>
+          <div class="champ">
+            <label for="periode">Période souhaitée</label>
+            <select id="periode" name="periode">
+              <option>12-13 décembre 2026</option>
+              <option>16-20 décembre 2026</option>
+              <option>Peu importe</option>
+            </select>
+          </div>
+          <div class="champ champ-large">
+            <label for="niveau">Votre niveau</label>
+            <select id="niveau" name="niveau">
+              <option>Première participation</option>
+              <option>J'ai déjà fait un HYROX</option>
+              <option>Athlète confirmé(e)</option>
+            </select>
+          </div>
+          <div class="champ champ-large">
+            <label for="message">Une question ?</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="champ champ-large case">
+            <input type="checkbox" id="accord" name="accord" required>
+            <label for="accord">J'accepte d'être recontacté(e) au sujet de l'événement. *</label>
+          </div>
+          <div class="champ champ-large">
+            <button class="bouton" type="submit">Envoyer ma demande</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur">
+      <p>Projet étudiant de Tariq Ait Oumalou – M2 STAPS MOS, Université Paris Nanterre. Site non officiel, sans lien avec l'organisateur HYROX.</p>
+      <p>Photos : <a href="https://www.pexels.com/fr-fr/" target="_blank" rel="noopener">Pexels</a> (libres de droits) · <a href="https://france.hyrox.com/event/hyrox-paris-season-26-27-hfkuj6" target="_blank" rel="noopener">Site officiel HYROX Paris</a></p>
+    </div>
+  </footer>
+</body>
+</html>
