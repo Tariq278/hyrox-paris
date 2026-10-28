@@ -1,16 +1,17 @@
 /* ==========================================================
+   Charte inspirée des couleurs HYROX (noir / jaune), sans logo officiel
    HYROX Paris 2026 – Projet de site statique (M2 STAPS MOS)
    Feuille de style unique du site
    ========================================================== */
 
 :root {
-  --noir: #0d0d0f;
-  --gris-fonce: #17181c;
-  --gris: #26282e;
+  --noir: #000000;
+  --gris-fonce: #111111;
+  --gris: #2a2a2a;
   --texte: #f2f2f2;
   --texte-doux: #b9bcc4;
-  --accent: #ff5a1f;
-  --accent-clair: #ff7a47;
+  --accent: #ffe500;
+  --accent-clair: #fff066;
   --rayon: 14px;
   --largeur: 1100px;
 }
@@ -33,12 +34,13 @@ a { color: var(--accent); }
 a:hover { color: var(--accent-clair); }
 
 h1, h2, h3 {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Barlow Condensed", Arial, sans-serif;
   text-transform: uppercase;
   line-height: 1.15;
   letter-spacing: 0.5px;
+  font-weight: 700;
 }
-h1 { font-size: clamp(2.3rem, 6vw, 4.2rem); }
+h1 { font-size: clamp(2.6rem, 7vw, 5rem); font-weight: 800; font-style: italic; }
 h2 { font-size: clamp(1.7rem, 3.5vw, 2.4rem); margin-bottom: 18px; }
 h3 { font-size: 1.25rem; margin-bottom: 10px; }
 
@@ -56,7 +58,7 @@ p + p { margin-top: 14px; }
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(13, 13, 15, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   border-bottom: 1px solid var(--gris);
 }
 .entete .conteneur {
@@ -68,7 +70,7 @@ p + p { margin-top: 14px; }
   flex-wrap: wrap;
 }
 .logo {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Barlow Condensed", Arial, sans-serif;
   font-size: 1.35rem;
   text-transform: uppercase;
   color: var(--texte);
@@ -108,7 +110,7 @@ p + p { margin-top: 14px; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(13,13,15,0.92) 0%, rgba(13,13,15,0.55) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 100%);
 }
 .bandeau .conteneur { position: relative; padding-top: 70px; padding-bottom: 70px; }
 .bandeau p.sous-titre { font-size: 1.2rem; color: var(--texte-doux); max-width: 640px; margin-top: 14px; }
@@ -156,7 +158,7 @@ p + p { margin-top: 14px; }
 }
 .section-claire .carte { background: var(--noir); }
 .carte .numero {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Barlow Condensed", Arial, sans-serif;
   color: var(--accent);
   font-size: 1.6rem;
   display: block;
@@ -184,7 +186,7 @@ p + p { margin-top: 14px; }
 }
 .chiffre strong {
   display: block;
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Barlow Condensed", Arial, sans-serif;
   font-size: 2.4rem;
   color: var(--texte);
 }
@@ -203,7 +205,7 @@ p + p { margin-top: 14px; }
   border-bottom: 1px solid var(--gris);
 }
 .tableau th {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Barlow Condensed", Arial, sans-serif;
   text-transform: uppercase;
   color: var(--accent);
   font-weight: 500;
@@ -226,7 +228,7 @@ p + p { margin-top: 14px; }
   background: var(--accent);
 }
 .frise .heure {
-  font-family: "Oswald", Arial, sans-serif;
+  font-family: "Barlow Condensed", Arial, sans-serif;
   color: var(--accent);
   font-size: 1.1rem;
 }
@@ -267,7 +269,7 @@ p + p { margin-top: 14px; }
 
 /* ---------- Encadrés ---------- */
 .encadre {
-  background: rgba(255, 90, 31, 0.1);
+  background: rgba(255, 229, 0, 0.08);
   border: 1px solid var(--accent);
   border-radius: var(--rayon);
   padding: 20px 24px;
