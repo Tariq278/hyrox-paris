@@ -21,8 +21,6 @@
 
 ## Modifications faites à la main
 
-<!-- À COMPLÉTER PAR L'ÉTUDIANT : listez ici les modifications que vous avez réellement faites vous-même. -->
-
 - **Choix de l'événement** : j'ai choisi moi-même l'HYROX Paris, en lien avec mon mémoire de Master.
 - **Photos** : j'ai sélectionné et téléchargé les 7 photos sur Pexels.
 - **Direction artistique** : j'ai demandé de reprendre les codes visuels de l'HYROX (noir et jaune, typographie condensée) à la place du thème orange proposé au départ.
