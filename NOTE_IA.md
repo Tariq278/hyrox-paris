@@ -5,7 +5,7 @@
 
 ## Outils utilisés
 
-- **Claude (Anthropic)** : génération de la structure des 5 pages HTML et du fichier `style.css`, premières versions des textes, choix des photos.
+- **Claude (Anthropic)** : génération de la structure des 5 pages HTML et du fichier `style.css`, premières versions des textes, suggestion de photos.
 - **Pexels** : banque d'images libres de droits pour les 7 photos du dossier `images/`.
 - **GitHub / GitHub Pages** : hébergement et mise en ligne du site.
 
@@ -26,6 +26,7 @@
 - **Direction artistique** : j'ai demandé de reprendre les codes visuels de l'HYROX (noir et jaune, typographie condensée) à la place du thème orange proposé au départ.
 - **Présentation « Qui suis-je ? »** (index.html) : réécrite avec l'aide de l'IA à partir de mes informations personnelles, puis relue et intégrée par moi sur GitHub.
 - **Reformulation d'un paragraphe** (programme.html) : j'ai réécrit moi-même, avec mes mots, le paragraphe sur : le plan de préparation « Bien se préparer en 8 semaines », à partir de mon expérience de préparateur physique.
+- **Photo personnelle** (index.html) : j'ai fourni une photo de moi pour remplacer la photo d'illustration à côté de « Qui suis-je ? ».
 
 ## Limites
 
