@@ -329,3 +329,13 @@ p + p { margin-top: 14px; }
 }
 
 .titre-formulaire { margin-top: 36px; }
+
+/* ---------- Texte justifié (début et fin de lignes alignés) ---------- */
+.section p,
+.bandeau p.sous-titre,
+.liste li,
+.frise p,
+.encadre {
+  text-align: justify;
+  hyphens: auto;
+}
