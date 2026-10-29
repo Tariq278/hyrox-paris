@@ -23,9 +23,11 @@
 
 <!-- À COMPLÉTER PAR L'ÉTUDIANT : listez ici les modifications que vous avez réellement faites vous-même. -->
 
-- …
-- …
-- …
+- **Choix de l'événement** : j'ai choisi moi-même l'HYROX Paris, en lien avec mon mémoire de Master.
+- **Photos** : j'ai sélectionné et téléchargé les 7 photos sur Pexels.
+- **Direction artistique** : j'ai demandé de reprendre les codes visuels de l'HYROX (noir et jaune, typographie condensée) à la place du thème orange proposé au départ.
+- **Présentation « Qui suis-je ? »** (index.html) : réécrite avec l'aide de l'IA à partir de mes informations personnelles, puis relue et intégrée par moi sur GitHub.
+- **Reformulation d'un paragraphe** (programme.html) : j'ai réécrit moi-même, avec mes mots, le paragraphe sur : le plan de préparation « Bien se préparer en 8 semaines », à partir de mon expérience de préparateur physique.
 
 ## Limites
 
